@@ -65,7 +65,7 @@ public class LauncherGridOptionsProvider {
     }
 
     boolean areGridsAvailable() {
-        return false;
+        return mPreviewUtils.supportsPreview();
     }
 
     /**
